@@ -6,18 +6,18 @@
     <link rel = "stylesheet" href = "css/style.css">
     <title>Momentum App</title>
 </head>
-<body>
-    <h2 id = 'clock'></h2>
-    <form class = "hidden" id = "login-form">
+<body> <!-- 배경 이미지 추가 필요"background.js"참조 -->
+    <h2 id = 'clock'></h2> <!-- 시계(1초마다 업데이트 됨 "clock.js" 참조) -->
+    <form class = "hidden" id = "login-form"> <!-- 로그인 양식(그냥 인삿말 띄우는 요소"greetings.js"참조) -->
         <input required  maxlength = 10 type = "text" placeholder="What is your name?">
         <button>Log In</button>
     </form>
     <h1 id = "greeting" class = "hidden"></h1>
-    <form id = "todo-form">
+    <form id = "todo-form"> <!-- 할일 적는 요소(삭제, 추가 가능 "todo.js" 참조) -->
         <input type = "text" required placeholder="Write a todo and press Enter!">
     </form>
     <ul id = "todo-list"></ul>
-    <div id = "quote">
+    <div id = "quote"> <!-- 명언 랜덤으로 띄워주는 요소("quotes.js" 참조) -->
         <span></span>
         <span></span>
     </div>
