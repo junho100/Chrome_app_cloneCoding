@@ -1,3 +1,81 @@
+html, body{
+    margin : 0;
+    padding : 0;
+    height : 100%;
+}
+body{
+    background-size: cover;
+}
+
+#container{
+    width : 600px;
+    height : 800px;
+    margin : 150px auto;
+    border : 4px rgba(255, 255, 255, 0.6) solid;
+    border-radius: 10%;
+}
+
 .hidden{
     display : none;
+}
+
+#right, #left{
+    margin : 5px;
+    float : left;
+    width : 45%;
+    height : 100%;
+}
+
+#left{
+    margin-left : 30px;
+}
+
+#border{
+    margin : 44px auto;
+    border-radius: 10%;
+    height : 90%;
+    width : 3px;
+    float : left;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#login-form{
+    width : 225px;
+    height : 23px;
+    margin : 0 auto;
+}
+
+#login-form, #greeting{
+    margin-top: 200px;
+}
+
+#quote{
+    color : #ddd;
+    margin-top: 150px;
+}
+#quote p > :last-child{
+    font-size: x-small;
+    padding-left : 50px;
+}
+
+#greeting{
+    color : #ddd;
+}
+
+#clock{
+    margin-top : 70px;
+    clear: left;
+    font-size: 49px;
+}
+
+#todo-form{
+    width : 100%;
+}
+
+#todo-form input{
+    display : block;
+    border-style: none;
+    width : 200px;
+    height : 30px;
+    margin : 0 auto;
 }
